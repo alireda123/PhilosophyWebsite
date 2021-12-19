@@ -3,3 +3,11 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+li{
+    margin: 11px;
+
+}
+li:hover{
+    transform: scale(1.05)
+}

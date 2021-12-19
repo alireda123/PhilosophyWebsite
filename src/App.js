@@ -1,21 +1,11 @@
 import "./App.css"
+import Navbar from "./Navbar"
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from black to green">
-     <div className="Navbar">
-       <div className="Nav-content">
-         <h1 className="titlesite font-serif color">My Islamic Blog</h1>
-         <ul>
-           <li></li>
-           <li></li>
-           <li></li>
-           <li></li>
-         </ul>
-       </div>
-     </div>
-    </div>
+  <Navbar />
   );
 }
 
 export default App;
+///make sure to restart this whole thing by making new project and using craco on it 
