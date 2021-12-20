@@ -1,9 +1,14 @@
 import "./App.css"
 import Navbar from "./Navbar"
+import Blogs from "./Blogs"
+import React from "react"
 
 function App() {
   return (
+  <>
   <Navbar />
+  <Blogs />
+  </>
   );
 }
 
