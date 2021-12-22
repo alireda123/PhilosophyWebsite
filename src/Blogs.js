@@ -18,19 +18,20 @@ export default function Blogs(){
     
 
     return(
-        <div className="m-3">
-            <h2>Featured Blogs</h2>
-            {blogdata && blogdata.map((item) => 
-            <>
-                <h3>{item.topic}</h3>
-                <p>{item.content}</p>
-                <p>Written by {item.author}</p>
-            </>
-            )}
+      <div className="m-24" id="blogsid">
+          <h2 className="text-3xl text-red-600 font-semibold">Featured Blogs</h2>
+          {blogdata && blogdata.map((item) => 
+          <ul>
+            <li className="list-style-none shadow-xl mb-5 mt-5 p-5 hover:shadow-2xl hover:custom hover: cursor-pointer hover: scale-105">
+              <h3 className="text-xl mb-2">{item.topic}</h3>
+              <p className="mb-2">{item.content}</p>
+              <p>Written by {item.author}</p>
+              </li>
+              </ul>
+              )}
+      </div>
 
-
-        </div> 
-        
-    )
+);
+    
 
 }

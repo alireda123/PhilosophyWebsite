@@ -5,7 +5,14 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: {
+        "custom": "scale-103"
+      },
+      fontFamily: {
+        "myfont": "Noto Sans, sans-serif"
+      }
+    },
   },
   plugins: [],
 }
